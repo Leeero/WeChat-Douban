@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/film/main",
+    "pages/music/main",
+    "pages/film-details/main"
+   ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TA说",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/film/main",
+      "text": "电影",
+      "iconPath": "./static/film.png",
+      "selectedIconPath": "./static/film_s.png"
+    }, {
+      "pagePath": "pages/music/main",
+      "text": "音乐",
+      "iconPath": "./static/music.png",
+      "selectedIconPath": "./static/music_s.png"
+    }]
+  }
+}
